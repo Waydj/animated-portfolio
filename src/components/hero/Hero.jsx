@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import "./Hero.scss";
+import "./hero.scss";
 
 const textVariants = {
   initial: {
