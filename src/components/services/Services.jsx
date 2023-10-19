@@ -35,8 +35,7 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow <br />
-          and move forward
+          Я ориентирован на помощь вашему бренду расти <br />и двигаться вперед.
         </p>
         <hr></hr>
       </motion.div>
@@ -44,15 +43,15 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> ideas
+            <motion.b whileHover={{ color: "orange" }}>Уникальные</motion.b> идеи
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
-            Business
+            <motion.b whileHover={{ color: "orange" }}>Для вашего</motion.b>{" "}
+            Бизнеса
           </h1>
-          <button>What We Do?</button>
+          <button>Что я делаю?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,7 +59,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Преимущества</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
             totam, quis reprehenderit unde beatae magnam sed, eligendi eos atque
@@ -73,7 +72,7 @@ const Services = () => {
           whileHover={{ background: "lightgray", color: "black" }}
           variants={variants}
         >
-          <h2>Branding</h2>
+          <h2>Преимущества</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
             totam, quis reprehenderit unde beatae magnam sed, eligendi eos atque
@@ -86,7 +85,7 @@ const Services = () => {
           whileHover={{ background: "lightgray", color: "black" }}
           variants={variants}
         >
-          <h2>Branding</h2>
+          <h2>Преимущества</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
             totam, quis reprehenderit unde beatae magnam sed, eligendi eos atque
@@ -99,7 +98,7 @@ const Services = () => {
           whileHover={{ background: "lightgray", color: "black" }}
           variants={variants}
         >
-          <h2>Branding</h2>
+          <h2>Преимущества</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
             totam, quis reprehenderit unde beatae magnam sed, eligendi eos atque

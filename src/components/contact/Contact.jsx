@@ -58,17 +58,17 @@ const Contact = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Let's work together</motion.h1>
+        <motion.h1 variants={variants}>Давайте работать вместе!</motion.h1>
         <motion.div className="item" variants={variants}>
-          <h2>Mail</h2>
-          <span>hello@react.dev</span>
+          <h2>Почта</h2>
+          <span>i@nerofox.ru</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          <h2>Address</h2>
-          <span>Hello street New York</span>
+          <h2>Адрес</h2>
+          <span>Калининград</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          <h2>Phone</h2>
+          <h2>Телефон</h2>
           <span>+1 234 5678</span>
         </motion.div>
       </motion.div>
@@ -109,10 +109,10 @@ const Contact = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}
         >
-          <input name="name" type="text" placeholder="Name" required />
+          <input name="name" type="text" placeholder="Имя" required />
           <input name="email" type="email" placeholder="Email" required />
-          <textarea name="message" rows="8" placeholder="Message" />
-          <button>Submit</button>
+          <textarea name="message" rows="8" placeholder="Сообщение" />
+          <button>Отправить</button>
           {error && "Error"}
           {success && "Success"}
         </motion.form>

@@ -48,17 +48,17 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>Aleksey</motion.h2>
+          <motion.h2 variants={textVariants}>Алексей</motion.h2>
           <motion.h1 variants={textVariants}>Web developer</motion.h1>
           <motion.div className="buttons" variants={textVariants}>
             <motion.button variants={textVariants}>
-              See the Latest Works
+              Посмотреть мои последние работы
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants}>Связаться со мной</motion.button>
           </motion.div>
           <motion.img
             src="/scroll.png"
-            alt=""
+            alt="hero"
             variants={textVariants}
             animate="scrollButton"
           />
@@ -70,7 +70,7 @@ const Hero = () => {
         animate="animate"
         variants={sliderVariants}
       >
-        Writer Content Creator Influencer
+        React ReactNative NextJs NestJs
       </motion.div>
       <div className="imageContainer">
         <img src="/hero.png" alt="" />

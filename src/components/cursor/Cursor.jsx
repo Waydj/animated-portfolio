@@ -7,7 +7,7 @@ const Cursor = () => {
 
   useEffect(() => {
     const mouseMove = (e) => {
-      setPosition({ x: e.clientX - 20, y: e.clientY - 20 });
+      setPosition({ x: e.clientX + 10, y: e.clientY + 10 });
     };
 
     window.addEventListener("mousemove", mouseMove);

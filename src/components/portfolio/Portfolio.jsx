@@ -53,7 +53,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.description}</p>
-            <button>See Demo</button>
+            <button>Посмотреть демо</button>
           </motion.div>
         </div>
       </div>
@@ -77,7 +77,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" ref={ref}>
       <div className="progress">
-        <h1>Featured Works</h1>
+        <h1>Лучшие работы</h1>
         <motion.div
           style={{ scaleX: scaleX }}
           className="progressBar"
