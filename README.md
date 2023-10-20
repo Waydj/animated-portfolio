@@ -1,4 +1,9 @@
-# React + Vite
+# Animated portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Сайт портфолио с анимацией, боковым меню, обратной связью.
+
+1. react
+2. framer-motion
+3. emailJs
+4. scss
 
